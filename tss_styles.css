@@ -39,6 +39,7 @@ h1, h2 {
    font-family: Quicksand, Verdana, Geneva, sans-serif;
    padding: 5px;
    border-radius: 8px;
+   letter-spacing: 0.1em;
 }
 
 article#about_tss h1 {
@@ -51,6 +52,14 @@ article#about_tss h2 {
    background-color: rgb(235, 177, 131);
 }
 
+h1 {
+   font-size: 2.2em;
+}
+
+h2 {
+   font-size: 1.5em;
+}
+
 article.syllabus h1, article.syllabus h2 {
    background-color: rgb(255, 185, 255);
    color: rgb(101, 101, 101);
@@ -59,6 +68,11 @@ article.syllabus h1, article.syllabus h2 {
 
 
 /* Aside and Blockquote Styles */
+
+aside {
+   font-size: 0.8em;
+}
+
 aside blockquote {
    color: rgb(232, 165, 116);
 }
@@ -68,6 +82,13 @@ aside blockquote {
 
 /* Navigation Styles */	
 
+nav {
+   font-size: 0.8em;
+}
+
+nav > ul {
+   line-height: 2em;
+}
 
 
 
