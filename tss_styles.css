@@ -72,10 +72,25 @@ article.syllabus h1, article.syllabus h2 {
 aside blockquote {
    color: rgb(232, 165, 116);
    margin: 20px 5px;
+   quotes: "\201C" "\201D";
 }
 
 aside{
    font-size: 0.8em;
+}
+
+aside blockquote:before {
+   content: open-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
+}
+
+aside blockquote:after {
+   content: close-quote;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 1.6em;
+   font-weight: bold;
 }
 
 
@@ -109,6 +124,13 @@ nav > ul > li > a:hover, nav > ul > li > a:active {
    text-decoration: underline;
 }
 
+nav > ul > li > a:hover::before {
+   content:"\00ab";
+}
+
+nav > ul > li > a:hover::after {
+   content:"\00bb";
+}
 
 
 /* List Styles */
